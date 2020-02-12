@@ -1,6 +1,7 @@
 # k3s-paasmonkeys
-My own k3s cluster on Raspberry Pi
-![PAASMONKEYS](images/paasmonkeys.png)](images/paasmonkeys.png)
+My own k3s cluster on Raspberry Pi.
+
+![PAASMONKEYS](images/paasmonkeys.png)]
 
 ## Getting started
 
@@ -37,7 +38,6 @@ static domain_name_servers=192.168.2.1
 ``
 
 ## Join Node
-
 SSH to Master
 ```
 ssh pi@k3s-paasmonkey-m01
