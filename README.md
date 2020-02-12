@@ -60,7 +60,7 @@ Now you can rely on your public key to log into each RPi without typing a passwo
 ## Join Node
 SSH to our Master
 ```
-ssh pi@k3s-paasmonkey-m01
+ssh pi@k3s-paasmonkey-m01.local
 ```
 Copy public key to the Node
 ```
