@@ -5,11 +5,11 @@
 ![PAASMONKEYS](images/cluster-draft.jpg)
 * 6 SD card 32GB like [SanDisk 32GB ULTRA microSDHC Card Class 10](https://www.amazon.com/gp/product/B007JTKLEK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007JTKLEK&linkCode=as2&tag=alexellisuk-20&linkId=72069d86b6c70e1dc49c2f0ce35f08ef)
 * 6 Raspberry Pi 3b+ (1 Masters and 5 Worker)
-* 8-port Ethernet Gigabit Switch
+* 8-port Ethernet Gigabit Switch like [Netgear GS308](https://www.amazon.de/dp/B07PTTX7MX?aaxitk=SnYYIyTPS3nEg.V.FMD-ig&pd_rd_i=B07PTMXBDK&pf_rd_p=5e2a70c8-77de-4865-9918-07306318c381&hsa_cr_id=8283596160702&sb-ci-n=asinImage&sb-ci-v=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41f7FBBmqpL.jpg&sb-ci-a=B07PTMXBDK&th=1)
 * 8-way USB Power-supply
 * 6 Ethernet cables
 * 6 Micro-USB cables
-* Raspberry Pi Cluster case
+* Raspberry Pi 3B+,4B Cluster case like [8 Slot Cluster Cloud](https://www.ebay.de/itm/8-Slot-Cluster-Cloud-For-Raspberry-Pi-4B-3B-and-other-single-board-computers/123315692330?hash=item1cb630232a:m:mgb2CCUuG3V2u1RKG3BDyGg&var=423715705189)
 
 ## Getting started
 ![PAASMONKEYS](images/cluster.png)
