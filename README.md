@@ -26,7 +26,7 @@ Do the following actions:
 
 Set static IP
 ```
-ifconfig
+ifconfig | grep -i inet
 sudo nano /etc/dhcpcd.conf
 ```
 Add to end of this file:
