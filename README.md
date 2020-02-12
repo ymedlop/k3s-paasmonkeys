@@ -74,10 +74,23 @@ export USER=pi
 k3sup join --ip $AGENT_IP --server-ip $SERVER_IP --user $USER
 ```
 
+### Api Gateway
+[Kong](https://konghq.com/) is an open-source API gateway that is built on top of a lightweight proxy, Nginx. 
+
+TODO:
+
+## Exposing Api Gateway on Private Kubernetes Clusters with a Public IP
+[inlets-operator](https://github.com/inlets/inlets-operator) automates the creation of an inlets exit-node on public cloud, and runs the client as a Pod inside your cluster. Your Kubernetes Service will be updated with the public IP of the exit-node and you can start receiving incoming traffic immediately.
+
+The cost of the LoadBalancer with a IaaS like DigitalOcean is around 5 USD / mo.
+
+TODO:
+
 Credits:
 ========
 
 * [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
+* [Inlets Operator — Exposing Services on Private Kubernetes Clusters with a Public IP](https://itnext.io/inlets-operator-exposing-services-on-private-kubernetes-clusters-with-a-public-ip-e701c64693ae)
 
 License
 -------
