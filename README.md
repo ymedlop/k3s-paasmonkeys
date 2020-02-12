@@ -30,12 +30,12 @@ ifconfig | grep -i inet
 sudo nano /etc/dhcpcd.conf
 ```
 Add to end of this file:
-``
+```
 interface eth0
 static ip_address=192.168.2.xxx/24
 static routers=192.168.2.1
 static domain_name_servers=192.168.2.1
-``
+```
 
 ## Join Node
 SSH to Master
