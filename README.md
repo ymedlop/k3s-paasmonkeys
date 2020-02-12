@@ -24,7 +24,7 @@ Do the following actions:
 * Set the hostname
 * Change the password for the pi user
 
-Set static IP
+#### Set static IP
 ```
 ifconfig | grep -i inet
 sudo nano /etc/dhcpcd.conf
@@ -35,6 +35,19 @@ interface eth0
 static ip_address=192.168.2.xxx/24
 static routers=192.168.2.1
 static domain_name_servers=192.168.2.1
+```
+#### Enable container features
+edit /boot/cmdline.txt 
+```
+sudo nano /boot/cmdline.txt
+```
+and add the following to the end of the line:
+```
+cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory
+```
+Now reboot the device:
+```
+sudo shutdown -r now
 ```
 
 ## Join Node
