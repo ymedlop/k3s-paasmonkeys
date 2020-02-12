@@ -51,7 +51,7 @@ sudo shutdown -r now
 ```
 
 ## Join Node
-SSH to Master
+SSH to our Master
 ```
 ssh pi@k3s-paasmonkey-m01
 ```
