@@ -15,7 +15,7 @@ Insert the SD card and turn on your Raspberry. It will be accessible on your net
 ```
 ssh pi@raspberrypi.local
 ```
-Log in with the password raspberry and then type:
+Log in with the password "raspberry" and then type:
 ```
 sudo raspi-config
 ```
