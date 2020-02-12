@@ -1,9 +1,19 @@
 # k3s-paasmonkeys
 My own k3s cluster on Raspberry Pi.
 
-![PAASMONKEYS](images/paasmonkeys.png)]
+![PAASMONKEYS](images/paasmonkeys.png)
+
+## Prerequisites
+* 6 SD card 32GB like SanDisk 32GB ULTRA microSDHC Card Class 10(https://www.amazon.com/gp/product/B007JTKLEK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007JTKLEK&linkCode=as2&tag=alexellisuk-20&linkId=72069d86b6c70e1dc49c2f0ce35f08ef)
+* 6 Raspberry Pi 3b+ (1 Masters and 5 Worker)
+* 8-port Ethernet Gigabit Switch
+* 8-way USB Power-supply
+* 6 Ethernet cables
+* 6 Micro-USB cables
+* Raspberry Pi Cluster case
 
 ## Getting started
+![PAASMONKEYS](images/cluster.png)
 
 ### Flash SD Card
 * Download Raspbian Lite
