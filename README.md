@@ -1,5 +1,6 @@
 # k3s-paasmonkeys
 
+[![PAASMONKEYS](images/paasmonkeys.png)](images/paasmonkeys.png)
 
 ## Join Node
 
