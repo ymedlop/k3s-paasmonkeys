@@ -68,7 +68,7 @@ ssh-copy-id pi@k3s-paasmonkey-n0x.local
 ```
 Join Node to the Cluster
 ```
-export AGENT_IP=192.168.2.xxxx
+export AGENT_IP=192.168.2.xxx
 export SERVER_IP=192.168.2.120
 export USER=pi
 k3sup join --ip $AGENT_IP --server-ip $SERVER_IP --user $USER
