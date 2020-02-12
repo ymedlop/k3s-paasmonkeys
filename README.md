@@ -10,8 +10,8 @@ My own k3s cluster on Raspberry Pi.
 * Flash SD card using Etcher
 * Mount the SD card and create a text file named "ssh" in the boot partition.
 
-### Power-up the Raspberry with the SD Card
-It will be accessible on your network over ssh using the following command:
+### Customize the Raspberry
+Insert the SD card and turn on your Raspberry. It will be accessible on your network over ssh using the following command:
 ```
 ssh pi@raspberrypi.local
 ```
@@ -49,6 +49,13 @@ Now reboot the device:
 ```
 sudo shutdown -r now
 ```
+
+### Add your ssh key
+Copy public key to the Node
+```
+ssh-copy-id pi@k3s-paasmonkey-n0x.local
+```
+Now you can rely on your public key to log into each RPi without typing a password in.
 
 ## Join Node
 SSH to our Master
