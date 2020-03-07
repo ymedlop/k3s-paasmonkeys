@@ -124,7 +124,7 @@ k3sup join --ip $AGENT_IP --server-ip $SERVER_IP --user $USER
 ```
 
 ## Api Gateway
-[Here](k3s/kong/README) you can see how deploy our API Gateway in our cluster.
+[Here](k3s/kong/README) you can see how deploy an API Gateway in our cluster.
 
 # Credits:
 * [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
