@@ -4,12 +4,15 @@
   * [Why k3s](#why-k3s)
   * [Prerequisites](#prerequisites)
   * [Getting started](#getting-started)
+    + [Choose your Cluster node names](#choose-your-cluster-node-names)
     + [Flash SD Card](#flash-sd-card)
     + [Customize the Raspberry](#customize-the-raspberry)
       - [Set static IP](#set-static-ip)
       - [Enable container features](#enable-container-features)
       - [Add your ssh key](#add-your-ssh-key)
-  * [Join Node](#join-node)
+  * [Create the cluster](#create-the-cluster)
+    + [Set the Master](#set-the-master)
+    + [Join Node](#join-node)
   * [Api Gateway](#api-gateway)
 - [Credits:](#credits-)
 - [License](#license)
@@ -91,10 +94,10 @@ ssh-copy-id pi@k3s-paasmonkey-n0x.local
 ```
 Now you can rely on your public key to log into each RPi without typing a password in.
 
-### Create the cluster
+## Create the cluster
 Because of the high availability feature with an embedded DB is experimental. I decided only to use one Master node in my cluster.
 
-## Set the Master
+### Set the Master
 SSH to you our RPi Master
 ```
 ssh pi@k3s-paasmonkey-m01.local
@@ -106,7 +109,7 @@ export USER=pi
 k3sup install --ip $SERVER_IP --user $USER
 ```
 
-## Join Node
+### Join Node
 SSH to our RPi Master
 ```
 ssh pi@k3s-paasmonkey-m01.local
@@ -124,7 +127,7 @@ k3sup join --ip $AGENT_IP --server-ip $SERVER_IP --user $USER
 ```
 
 ## Api Gateway
-[Here](k3s/kong/README) you can see how deploy an API Gateway in our cluster.
+[Here](k3s/kong/README.md) you can see how deploy an API Gateway in our cluster.
 
 # Credits:
 * [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
